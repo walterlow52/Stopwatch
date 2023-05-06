@@ -28,7 +28,7 @@ start.addEventListener("click", function() {
     hour += 1;
     hrs.innerHTML = hour < 10 ? "0" + hour + ":" : hour + ":";
   }
- }
+ })
 }, 1000);
   
   start.style.pointerEvents = "none";
