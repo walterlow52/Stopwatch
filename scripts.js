@@ -14,11 +14,11 @@ start.addEventListener("click", function() {
   interval = setInterval(function() {
   if (second < 59) {
     second += 1;
-    secs.innerHTML = second < 10 ? " 0" + second : second;
+    secs.innerHTML = second < 10 ? "0" + second : second;
   }
   else {
     second = 0;
-    secs.innerHTML = second < 10 ? " 0" + second : second;
+    secs.innerHTML = second < 10 ? "0" + second : second;
   }
   if (min < 59) {
     min += 1;
