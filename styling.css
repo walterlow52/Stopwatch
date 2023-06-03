@@ -6,13 +6,13 @@ body {
 .stopwatch {
    background-color: aqua;
    color: lime;
-   width: 600px;
-   height: 300px;
-   margin: 10px auto;
-   padding: 10px;
+   width: 900px;
+   height: 500px;
+   margin: 50px;
+   padding: 50px;
    text-align: center;
    text-shadow: 2px 2px black;
-   font-size: 50px;
+   font-size: 200px;
    border: 10px double white;
    border-radius: 12px;
 }
