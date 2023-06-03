@@ -1,5 +1,6 @@
 body {
    background-image: linear-gradient(to bottom, black, cyan, white, cyan, black);
+   background-repeat: no-repeat;
    font-family: lucida handwriting;
 }
 
