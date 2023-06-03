@@ -21,7 +21,7 @@ body {
    border: 10px double white;
    border-radius: 12px;
    outline: 10px inset black;
-   box-shadow: 15px 15px white;
+   box-shadow: 15px 15px black;
 }
 
 span {
