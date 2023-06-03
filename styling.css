@@ -5,26 +5,21 @@ body {
 
 .stopwatch {
    background-color: aqua;
+   color: lime;
    width: 500px;
    height: 500px;
    margin: 10px auto;
    padding: 10px;
    text-align: center;
    font-size: 50px;
-   border-radius: 12px;
-}
-
-span {
-   width: 300px;
-   height: 300px;
-   color: lawngreen;
-   margin: 20px;
-   padding: 10px;
    border: 10px double white;
    border-radius: 12px;
 }
 
 button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    background-color: gold;
    color: white;
    width: 100px;
