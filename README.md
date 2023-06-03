@@ -1,1 +1,2 @@
-# Stopwatch (WIP)
+# Stopwatch 
+#Update CSS styling
