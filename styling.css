@@ -7,12 +7,12 @@ body {
    background-color: aqua;
    color: lime;
    width: 900px;
-   height: 400px;
+   height: 350px;
    margin: 50px;
    padding: 50px;
    text-align: center;
    text-shadow: 2px 2px black;
-   font-size: 200px;
+   font-size: 100px;
    border: 10px double white;
    border-radius: 12px;
 }
