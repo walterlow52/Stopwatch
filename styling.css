@@ -1,6 +1,11 @@
+* {
+   box-sizing: border-box;  
+}
+
 body {
    background-image: linear-gradient(to bottom, black, cyan, white, cyan, black);
    font-family: lucida handwriting;
+   font-variant: small-caps;
 }
 
 .stopwatch {
@@ -15,11 +20,13 @@ body {
    font-size: 100px;
    border: 10px double white;
    border-radius: 12px;
+   outline: 10px inset black;
 }
 
 span {
    border: 5px outset gray;
    border-radius: 12px;
+   cursor: pointer;
 }
 
 button {
@@ -39,6 +46,5 @@ button {
 button:hover {
    background-color: white;
    color: gold;
+   cursor: pointer;
 }
-
-
