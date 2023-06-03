@@ -1,21 +1,17 @@
 var timer = 0;
 var interval;
-var hr = document.getElementById('hrs')
-var min = document.getElementById('mins');
-var sec = document.getElementById('secs');
-var ms = document.getElementById('millisecs');
 
 function start() {
   stop();
   interval = setInterval(function () {
     timer += 1 / 60;
-    ms_count = Math.floor((timer - Math.floor(timer)) * 100);
-    sec_count = Math.floor(timer) - Math.floor(timer / 60) * 60;
-    min_count = Math.floor(timer / 60);
-    hr_count = Math.floor(timer);
-    ms.textContent = ms_count < 10 ? "0" + ms_count.toString() : ms_count;
-    sec.textContent = sec_count < 10 ? "0" + sec_count.toString() : sec_count;
-    min.textContent = min_count < 10 ? "0" + min_count.toString() : min_count;
+    ms = Math.floor((timer - Math.floor(timer)) * 100);
+    sec = Math.floor(timer) - Math.floor(timer / 60) * 60;
+    min = Math.floor(timer / 60);
+    hr = Math.floor(timer);
+    document.getElementById('millisecs').innerHTML = ms < 10 ? "0" + ms.toString() : ms;
+    document.getElementById('secs').innerHTML = sec < 10 ? "0" + sec.toString() : sec;
+    document.getElementById('mins').innerHTML = min < 10 ? "0" + min.toString() : min;
   }, 1000 / 60);
 }
 
@@ -26,8 +22,8 @@ function stop() {
 function reset() {
   stop();
   timer = 0;
-  ms.textContent = "00";
-  sec.textContent = "00";
-  min.textContent = "00";
-  hr.textContent = "00";
+  document.getElementById('hrs').innerHTML = "00";
+  document.getElementById('mins').innerHTML = "00";
+  document.getElementById('secs').innerHTML = "00";
+  document.getElementById('millisecs').innerHTML = "00";
 }
