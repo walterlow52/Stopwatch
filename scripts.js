@@ -13,9 +13,9 @@ function start() {
     sec_count = Math.floor(timer) - Math.floor(timer / 60) * 60;
     min_count = Math.floor(timer / 60);
     hr_count = Math.floor(timer);
-    ms.innerHTML = ms_count < 10 ? "0" + ms_count.toString() : ms_count;
-    sec.innerHTML = sec_count < 10 ? "0" + sec_count.toString() : sec_count;
-    min.innerHTML = min_count < 10 ? "0" + min_count.toString() : min_count;
+    ms = ms_count < 10 ? "0" + ms_count.toString() : ms_count;
+    sec = sec_count < 10 ? "0" + sec_count.toString() : sec_count;
+    min = min_count < 10 ? "0" + min_count.toString() : min_count;
   }, 1000 / 60);
 }
 
