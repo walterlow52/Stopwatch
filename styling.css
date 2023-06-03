@@ -1,3 +1,47 @@
 body {
-   
+   background-image: linear-gradient(to bottom, black, cyan, white);
+   font-family: lucida handwriting;
 }
+
+.stopwatch {
+   background-color: aqua;
+   width: 500px;
+   height: 500px;
+   margin: 10px auto;
+   padding: 10px;
+   text-align: center;
+   font-size: 50px;
+   border-radius: 12px;
+}
+
+span {
+   display: block;
+   width: 300px;
+   height: 300px;
+   color: lawngreen;
+   margin: 20px;
+   padding: 10px;
+   border: 10px double white;
+   border-radius: 12px;
+}
+
+button {
+   display: block;
+   background-color: gold;
+   color: white;
+   width: 100px;
+   height: 50px;
+   margin: 5px;
+   padding: 10px;
+   border: 5px outset gray;
+   border-radius: 5px;
+   font-size: 50px;
+   transition: .5s;
+}
+
+button:hover {
+   background-color: white;
+   color: gold;
+}
+
+
