@@ -22,8 +22,8 @@ function stop() {
 function reset() {
   stop();
   timer = 0;
-  document.getElementById('hrs').innerHTML = "00 : ";
-  document.getElementById('mins').innerHTML = "00 : ";
-  document.getElementById('secs').innerHTML = "00 : ";
+  document.getElementById('hrs').innerHTML = "00";
+  document.getElementById('mins').innerHTML = "00";
+  document.getElementById('secs').innerHTML = "00";
   document.getElementById('millisecs').innerHTML = "00";
 }
