@@ -1,9 +1,9 @@
 var timer = 0;
 var interval;
-var hr = document.querySelector(".hrs")
-var min = document.querySelector(".mins");
-var sec = document.querySelector(".secs");
-var ms = document.querySelector(".millisecs");
+var hr = document.getElementById('hrs')
+var min = document.getElementById('mins');
+var sec = document.getElementById('secs');
+var ms = document.getElementById('millisecs');
 
 function start() {
   stop();
